@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://heshaobo.github.io</id>
     <title>Gridea</title>
-    <updated>2021-12-11T07:54:31.080Z</updated>
+    <updated>2021-12-11T07:56:18.438Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://heshaobo.github.io"/>
     <link rel="self" href="https://heshaobo.github.io/atom.xml"/>
@@ -16,10 +16,12 @@
         <link href="https://heshaobo.github.io/post/test/">
         </link>
         <updated>2021-12-11T07:52:32.000Z</updated>
-        <summary type="html"><![CDATA[<p>test</p>
-]]></summary>
         <content type="html"><![CDATA[<p>test</p>
-<!-- more -->
+<pre><code class="language-c">#include &lt;sys/ptrace.h&gt;
+
+       long ptrace(enum __ptrace_request request, pid_t pid,
+                   void *addr, void *data);
+</code></pre>
 ]]></content>
     </entry>
 </feed>
